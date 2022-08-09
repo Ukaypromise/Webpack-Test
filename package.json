@@ -1,0 +1,32 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "This is to practice setting up webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ukaypromise/Webpack-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ukaypromise/Webpack-Test/issues"
+  },
+  "homepage": "https://github.com/Ukaypromise/Webpack-Test#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
